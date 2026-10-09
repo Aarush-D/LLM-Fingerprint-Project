@@ -1,0 +1,454 @@
+prompt_id,category,LLM_Input,LLM_name,LLM_output
+1,general_knowledge,Explain why the sky appears blue during the day.,Claude,"Sunlight looks white but contains all colors. As it enters the atmosphere, it collides with gas molecules (mostly nitrogen and oxygen). These molecules scatter short wavelengths, like blue, much more strongly than long wavelengths, like red. This is called Rayleigh scattering, and its strength rises steeply as wavelength gets shorter. The scattered blue light reaches your eyes from every direction in the sky, so the sky looks blue. Violet scatters even more, but the sun emits less of it, the upper atmosphere absorbs some, and our eyes are less sensitive to it. At sunrise and sunset, light travels through much more air, most blue is scattered away, and reds and oranges remain."
+2,general_knowledge,Explain how a refrigerator keeps food cold.,Claude,"A refrigerator moves heat from inside the cabinet to the outside using a refrigerant that cycles through four stages. The compressor squeezes the refrigerant gas, making it hot and high pressure. The gas flows through condenser coils on the back or bottom, releasing heat into the room and turning into a liquid. The liquid passes through an expansion valve, where pressure drops suddenly and it becomes very cold. It then flows through the evaporator coils inside the fridge, absorbing heat from the food and air and evaporating back into gas. The gas returns to the compressor and the cycle repeats. A thermostat turns the compressor on and off to hold the set temperature."
+3,general_knowledge,Describe how the internet works in simple terms.,Claude,"The internet is a global network of connected computers that agree on common rules, called protocols, for sending data. When you load a website, your device asks a DNS server to translate the name (like example.com) into an IP address. Your request is broken into small packets, which travel through your router, your internet provider, and many other routers, each passing the packets along toward the destination. The web server receives the packets, reassembles your request, and sends back the page, again as packets. Your browser reassembles them and displays the page. Physical cables, including undersea fiber optic lines, plus wireless links like Wi-Fi and cellular, carry the signals."
+4,general_knowledge,Explain the difference between weather and climate.,Claude,"Weather is the state of the atmosphere at a particular place and time: today's temperature, rain, wind, and cloud cover. It can change within hours or days. Climate is the long-term pattern of weather in a region, usually averaged over 30 years or more. For example, a cold, snowy day is weather, while the fact that a region has cold, snowy winters is climate. A helpful saying is that climate is what you expect and weather is what you get."
+5,general_knowledge,Why do humans need sleep?,Claude,"Sleep is essential for the brain and body, though scientists are still working out every detail. During sleep the brain consolidates memories and learning, clears metabolic waste products, and regulates emotions. The body repairs tissue, releases growth hormone, supports the immune system, and regulates hormones that control appetite and stress. Not getting enough sleep impairs attention, mood, decision making, and immune function, and over time raises the risk of conditions like heart disease and diabetes. Most adults need about 7 to 9 hours per night."
+6,general_knowledge,Explain how airplanes are able to fly.,Claude,"Airplanes fly because of four forces: lift, weight, thrust, and drag. Wings are shaped (and angled) so that air moving over them is deflected downward and the pressure above the wing is lower than below. This produces lift, an upward force. Engines provide thrust, pushing the plane forward through the air, which keeps air flowing over the wings. Drag is air resistance opposing motion, and weight is gravity pulling down. When thrust exceeds drag and lift exceeds weight, the plane climbs. Pilots steer using control surfaces such as ailerons, elevators, and the rudder, which change how air flows over parts of the plane."
+7,general_knowledge,Describe how GPS determines someone's location.,Claude,"GPS uses a network of satellites orbiting Earth, each broadcasting its position and the exact time of the signal using atomic clocks. A GPS receiver, like the one in your phone, picks up signals from at least four satellites. Because radio signals travel at the speed of light, the receiver can work out how far each satellite is from the tiny delay between when a signal was sent and when it arrived. Knowing distances from several satellites with known positions, it calculates where those distances intersect, which gives latitude, longitude, and altitude. The fourth satellite corrects for the receiver's imperfect clock. Accuracy is typically a few meters."
+8,general_knowledge,Explain why leaves change color in the fall.,Claude,"Leaves are green because of chlorophyll, which captures sunlight for photosynthesis. Leaves also contain yellow and orange pigments (carotenoids) that are hidden by the chlorophyll during summer. In fall, shorter days and cooler temperatures signal the tree to stop producing chlorophyll, and the existing chlorophyll breaks down. This reveals the yellows and oranges underneath. Some trees also produce red and purple pigments (anthocyanins) in autumn from sugars trapped in the leaf, which is why maples can turn bright red. Weather affects intensity: sunny days and cool nights tend to produce more vivid reds."
+9,general_knowledge,What causes ocean tides?,Claude,"Tides are caused mainly by the Moon's gravity, with a smaller contribution from the Sun. The Moon pulls on the ocean water closest to it, creating a bulge. There is a second bulge on the opposite side of Earth, because the Moon pulls less strongly on the far side and Earth itself is pulled toward the Moon more than the far water is. As Earth rotates, a coastline passes through these bulges, giving most places two high tides and two low tides about every 25 hours. When the Sun and Moon line up (new and full moon), tides are stronger (spring tides). When they are at right angles, tides are weaker (neap tides). Coastline shape and ocean depth also change local tide heights."
+10,general_knowledge,Explain how a microwave oven heats food.,Claude,"A microwave oven produces microwaves, a kind of electromagnetic radiation, using a device called a magnetron. The waves bounce around the metal-walled cabinet and pass into the food. Water, fat, and sugar molecules in the food are polar, so they rotate to line up with the rapidly alternating electric field of the waves, billions of times per second. This motion causes friction between molecules, which produces heat. The microwaves penetrate only a short distance, so the heat spreads deeper by conduction. A turntable helps even out hot and cold spots. Dry or frozen materials with little free water heat poorly."
+11,general_knowledge,Why does ice float on water?,Claude,"Most substances are denser as solids than as liquids, but water is unusual. In liquid water, hydrogen bonds constantly form and break. As water cools below about 4 degrees Celsius, the molecules begin to arrange into an open hexagonal crystal structure held by hydrogen bonds. This structure spaces the molecules farther apart than in liquid water, so ice is about 9 percent less dense. Because ice is less dense than liquid water, it floats. This also means lakes freeze from the top down, which insulates the water below and lets aquatic life survive winter."
+12,general_knowledge,Explain how a battery produces electricity.,Claude,"A battery converts chemical energy into electrical energy through redox reactions. It has two electrodes, an anode (negative) and a cathode (positive), separated by an electrolyte. At the anode, a chemical reaction releases electrons (oxidation). The electrolyte lets ions move between the electrodes but does not let electrons through, so the electrons must travel through the external circuit, powering your device, to reach the cathode, where they are consumed in a reduction reaction. This flow of electrons is electric current. The reactions continue until the reactants are used up. In rechargeable batteries, such as lithium-ion, applying external current reverses the reactions."
+13,general_knowledge,Describe how vaccines help protect the human body.,Claude,"Vaccines train the immune system to recognize a pathogen without causing the disease. A vaccine contains a harmless piece or form of the germ, such as a weakened or inactivated virus, a protein, or instructions (mRNA) for making a protein. The immune system detects this as foreign and responds by producing antibodies and activating T cells. It also creates memory cells that remember the pathogen. If you later encounter the real germ, these memory cells respond quickly and strongly, often stopping the infection or making it much milder. When enough people are vaccinated, the disease also spreads less, protecting people who cannot be vaccinated (herd immunity)."
+14,general_knowledge,Explain why seasons occur on Earth.,Claude,"Seasons occur because Earth's axis is tilted about 23.5 degrees relative to its orbit around the Sun, not because of changes in distance from the Sun. As Earth orbits, the Northern Hemisphere tilts toward the Sun for part of the year and away for another part. When a hemisphere tilts toward the Sun, it receives more direct sunlight and longer days, which brings summer. When tilted away, sunlight arrives at a lower angle and days are shorter, which brings winter. The hemispheres have opposite seasons. Spring and fall occur in between, when neither hemisphere is tilted strongly toward or away from the Sun."
+15,general_knowledge,Describe how a search engine finds information.,Claude,"A search engine works in three main steps. First, crawlers (automated programs) follow links across the web, discovering and downloading pages. Second, the engine indexes those pages, storing information about the words, topics, links, and other signals on each page in a huge database, similar to a book's index. Third, when you search, the engine interprets your query, finds matching pages in the index, and ranks them using hundreds of factors such as relevance to your words, page quality, how many trusted sites link to it, freshness, and your location or language. The top results are shown in a fraction of a second."
+16,science,Explain the process of photosynthesis.,Claude,"Photosynthesis is how plants, algae, and some bacteria turn light energy into chemical energy. It occurs in chloroplasts, which contain chlorophyll. In the light-dependent reactions, chlorophyll absorbs sunlight, which splits water molecules into oxygen, protons, and electrons. Oxygen is released, and the energy captured is stored in ATP and NADPH. In the Calvin cycle (light-independent reactions), the plant uses ATP and NADPH to convert carbon dioxide from the air into glucose. The overall equation is 6CO2 + 6H2O + light energy -> C6H12O6 + 6O2. The glucose fuels the plant's growth and is the base of most food chains."
+17,science,What is the difference between DNA and RNA?,Claude,"DNA (deoxyribonucleic acid) and RNA (ribonucleic acid) are both nucleic acids made of nucleotides, but they differ in several ways. DNA contains the sugar deoxyribose, while RNA contains ribose. DNA uses the bases A, T, G, and C, while RNA uses A, U, G, and C (uracil replaces thymine). DNA is typically double stranded, forming a double helix, while RNA is usually single stranded. DNA stores genetic information long term, mainly in the nucleus. RNA has several roles, including carrying instructions from DNA to ribosomes (mRNA), delivering amino acids (tRNA), and forming part of ribosomes (rRNA)."
+18,science,Explain how gravity affects objects on Earth.,Claude,"Gravity is the attractive force between objects with mass. On Earth, it pulls everything toward the planet's center. Near the surface it gives objects an acceleration of about 9.8 m/s^2, regardless of their mass (ignoring air resistance), so a feather and a hammer fall at the same rate in a vacuum. Gravity gives objects weight (weight = mass x 9.8 m/s^2), keeps the atmosphere and oceans in place, makes things fall, and causes projectiles to follow curved paths. It is also what keeps the Moon in orbit around Earth."
+19,science,Describe how the human heart pumps blood.,Claude,"The heart is a muscular pump with four chambers: two atria on top and two ventricles below. Oxygen-poor blood from the body enters the right atrium, passes through the tricuspid valve into the right ventricle, and is pumped through the pulmonary valve to the lungs. There it picks up oxygen. Oxygen-rich blood returns to the left atrium, flows through the mitral valve into the left ventricle, and is pumped at high pressure through the aortic valve into the aorta and out to the body. Electrical signals from the sinoatrial node coordinate the contractions (the heartbeat). Valves keep blood flowing in one direction."
+20,science,What causes earthquakes?,Claude,"Earthquakes are caused by the sudden release of energy in Earth's crust. The crust is broken into tectonic plates that slowly move. Where plates grind past, collide with, or pull away from each other, stress builds up along faults because friction keeps the rocks locked. When the stress exceeds the strength of the rock, it slips suddenly, releasing energy as seismic waves that shake the ground. The point of slip underground is the focus, and the point above it on the surface is the epicenter. Earthquakes can also be caused by volcanic activity and, less commonly, by human activity such as mining or wastewater injection."
+21,science,Explain how antibiotics work.,Claude,"Antibiotics are medicines that kill bacteria or stop them from multiplying. Different types target features specific to bacteria that human cells do not have. Penicillins and related drugs block the building of the bacterial cell wall, causing the cell to burst. Others, like tetracyclines and macrolides, interfere with bacterial ribosomes and stop protein production. Some, like fluoroquinolones, disrupt bacterial DNA replication. Antibiotics do not work against viruses, so they will not help with colds or flu. Misuse and overuse lead to antibiotic resistance, so they should be taken exactly as prescribed."
+22,science,Describe the water cycle.,Claude,"The water cycle describes how water continuously moves around Earth. The Sun's heat causes evaporation, turning liquid water from oceans, lakes, and rivers into water vapor. Plants also release vapor through transpiration. As the vapor rises and cools, it condenses into tiny droplets, forming clouds. When droplets grow large enough, they fall as precipitation (rain, snow, sleet, or hail). Water then flows over land as runoff into streams and rivers, or soaks into the ground as groundwater, and eventually returns to the oceans, where the cycle begins again."
+23,science,Explain what black holes are.,Claude,"A black hole is a region of space where gravity is so strong that nothing, not even light, can escape once it passes a boundary called the event horizon. Many black holes form when a massive star runs out of fuel and its core collapses under its own gravity. Others, called supermassive black holes, sit at the centers of galaxies, including our own. Because they emit no light, black holes are detected by their effects, such as the motion of nearby stars, hot glowing gas swirling around them (an accretion disk), gravitational waves from mergers, and gravitational lensing. In 2019, astronomers released the first image of a black hole's shadow."
+24,science,Why do metals conduct electricity?,Claude,"Metals conduct electricity because of metallic bonding. In a metal, the outer (valence) electrons are not tied to individual atoms. Instead they form a ""sea"" of delocalized electrons that can move freely among a lattice of positive metal ions. When a voltage is applied across the metal, these free electrons drift in one direction, which is an electric current. Metals also conduct heat well for a similar reason. Resistance arises when electrons scatter off vibrating ions and impurities, which is why most metals conduct slightly worse when hot."
+25,science,Explain the greenhouse effect.,Claude,"The greenhouse effect is a natural process that warms Earth. Sunlight passes through the atmosphere and warms the surface. The surface then radiates heat as infrared radiation. Greenhouse gases such as carbon dioxide, methane, water vapor, and nitrous oxide absorb some of this infrared radiation and re-emit it in all directions, including back toward the surface. This traps heat and keeps Earth about 33 degrees Celsius warmer than it would otherwise be, making it habitable. Human activities like burning fossil fuels and deforestation have increased greenhouse gas levels, enhancing the effect and driving global warming."
+26,science,Describe how neurons communicate with each other.,Claude,"Neurons communicate through electrical and chemical signals. When a neuron is stimulated enough, an electrical impulse called an action potential travels down its axon as sodium and potassium ions move across the cell membrane. When the impulse reaches the axon terminal, it triggers the release of chemical messengers called neurotransmitters (such as dopamine, serotonin, or glutamate) into the synapse, the tiny gap between neurons. The neurotransmitters bind to receptors on the next neuron's dendrites, which can excite it or inhibit it. If enough excitatory signals arrive, the next neuron fires its own action potential. Leftover neurotransmitters are then cleared away or reabsorbed."
+27,science,What is natural selection?,Claude,"Natural selection is the process by which organisms with traits that better suit their environment tend to survive and reproduce more than others. It rests on a few ideas: individuals in a population vary, some of this variation is heritable, more offspring are born than can survive, and individuals with advantageous traits are more likely to survive and pass those traits on. Over many generations, helpful traits become more common in the population. This is a main mechanism of evolution, described by Charles Darwin. A classic example is bacteria becoming resistant to antibiotics: resistant individuals survive treatment and reproduce."
+28,science,Explain how solar panels generate electricity.,Claude,"Solar panels convert sunlight into electricity using the photovoltaic effect. A panel is made of cells, usually silicon, with two layers treated (doped) to have different electrical properties, forming a p-n junction with an electric field. When photons from sunlight hit the cell, they knock electrons loose from silicon atoms. The electric field pushes these free electrons in one direction, creating a flow of direct current (DC) through metal contacts. An inverter then converts the DC electricity into alternating current (AC) used by homes and the grid. Output depends on sunlight intensity, panel angle, temperature, and shading."
+29,science,Describe the difference between acids and bases.,Claude,"Acids and bases are chemicals that behave oppositely in water. Acids release hydrogen ions (H+), taste sour, and have a pH below 7; examples include vinegar and lemon juice. Bases release hydroxide ions (OH-) or accept hydrogen ions, feel slippery, taste bitter, and have a pH above 7; examples include baking soda and soap. Pure water is neutral at pH 7. When an acid and base are mixed, they neutralize each other, typically forming water and a salt. Indicators like litmus paper turn red in acid and blue in base. Strong acids and bases can be dangerous and corrosive."
+30,science,Explain why the Moon has phases.,Claude,"The Moon has phases because we see different amounts of its sunlit half as it orbits Earth. The Sun always illuminates half of the Moon, but as the Moon moves around Earth over about 29.5 days, our viewing angle changes. At new moon, the Moon is between Earth and the Sun and the lit side faces away from us. As it moves, we see a growing crescent, then first quarter, gibbous, and full moon, when the whole lit side faces us. Afterward the lit portion shrinks (waning) through last quarter and crescent back to new moon. Phases are not caused by Earth's shadow; that happens only during lunar eclipses."
+31,coding,Write a Python function that reverses a list.,Claude,"def reverse_list(items):
+    return items[::-1]
+
+# Example
+print(reverse_list([1, 2, 3, 4]))  # [4, 3, 2, 1]
+
+This returns a new reversed list using slicing. To reverse in place instead, use items.reverse()."
+32,coding,Explain the difference between a list and a tuple in Python.,Claude,"Both lists and tuples are ordered sequences in Python that can hold items of any type and support indexing and slicing.
+
+Key differences:
+- Mutability: lists are mutable (you can add, remove, or change items), while tuples are immutable (fixed after creation).
+- Syntax: lists use square brackets [1, 2, 3]; tuples use parentheses (1, 2, 3).
+- Use cases: lists suit collections that change; tuples suit fixed data such as coordinates or records.
+- Performance: tuples are slightly faster and use less memory.
+- Hashability: tuples (with hashable contents) can be dictionary keys or set members; lists cannot."
+33,coding,Write a Java method that checks whether a string is a palindrome.,Claude,"public static boolean isPalindrome(String s) {
+    if (s == null) return false;
+    int left = 0;
+    int right = s.length() - 1;
+    while (left < right) {
+        if (s.charAt(left) != s.charAt(right)) {
+            return false;
+        }
+        left++;
+        right--;
+    }
+    return true;
+}
+
+This compares characters from both ends moving inward. To ignore case and non-letters, first clean the string with s.toLowerCase().replaceAll(""[^a-z0-9]"", """")."
+34,coding,Explain what recursion is with a simple example.,Claude,"Recursion is when a function solves a problem by calling itself on a smaller version of the same problem. Every recursive function needs a base case (when to stop) and a recursive case (how to shrink the problem).
+
+Example: sum of numbers from 1 to n.
+
+def sum_to(n):
+    if n == 0:        # base case
+        return 0
+    return n + sum_to(n - 1)  # recursive case
+
+print(sum_to(4))  # 10
+
+sum_to(4) calls sum_to(3), then sum_to(2), sum_to(1), and sum_to(0), which returns 0. The results then combine back up: 1 + 2 + 3 + 4 = 10."
+35,coding,Write a Python function that returns the largest number in a list.,Claude,"def find_largest(numbers):
+    if not numbers:
+        raise ValueError(""List is empty"")
+    largest = numbers[0]
+    for n in numbers[1:]:
+        if n > largest:
+            largest = n
+    return largest
+
+print(find_largest([3, 9, 2, 7]))  # 9
+
+The built-in max(numbers) does the same thing in one call."
+36,coding,Explain the difference between a stack and a queue.,Claude,"A stack and a queue are both linear data structures, but they differ in the order items are removed.
+
+- Stack: Last In, First Out (LIFO). The most recently added item is removed first, like a stack of plates. Main operations are push (add) and pop (remove from top). Uses include undo features, function call tracking, and expression parsing.
+- Queue: First In, First Out (FIFO). The earliest added item is removed first, like a line at a store. Main operations are enqueue (add at back) and dequeue (remove from front). Uses include task scheduling, print jobs, and breadth-first search."
+37,coding,Write a Java program that prints the numbers 1 through 10.,Claude,"public class PrintNumbers {
+    public static void main(String[] args) {
+        for (int i = 1; i <= 10; i++) {
+            System.out.println(i);
+        }
+    }
+}
+
+This uses a for loop that starts at 1 and prints each number until it reaches 10."
+38,coding,Explain what a binary search algorithm does.,Claude,"Binary search finds a target value in a sorted list by repeatedly halving the search range. It compares the target to the middle element. If they match, the search is done. If the target is smaller, it continues in the left half; if larger, in the right half. This repeats until the target is found or the range is empty. Because it eliminates half the remaining items each step, it runs in O(log n) time, far faster than checking every element (O(n)). The main requirement is that the data must be sorted."
+39,coding,Write a Python function that counts vowels in a string.,Claude,"def count_vowels(text):
+    vowels = ""aeiouAEIOU""
+    return sum(1 for ch in text if ch in vowels)
+
+print(count_vowels(""Hello World""))  # 3
+
+It loops through each character and counts those found in the vowel string, handling both uppercase and lowercase."
+40,coding,Explain what object-oriented programming is.,Claude,"Object-oriented programming (OOP) is a style of programming that organizes code around objects, which bundle data (attributes) and behavior (methods). Objects are created from classes, which act as blueprints.
+
+Four core principles:
+- Encapsulation: keeping data and the methods that use it together, and hiding internal details.
+- Abstraction: exposing only what is necessary and hiding complexity.
+- Inheritance: a class can reuse and extend another class's features.
+- Polymorphism: different classes can be used through the same interface, each responding in its own way.
+
+OOP makes large programs easier to organize, reuse, and maintain. Languages like Java, Python, and C++ support it."
+41,coding,Write a Java method that finds the sum of an integer array.,Claude,"public static int sumArray(int[] numbers) {
+    int sum = 0;
+    for (int n : numbers) {
+        sum += n;
+    }
+    return sum;
+}
+
+// Example
+// sumArray(new int[]{1, 2, 3, 4}) returns 10
+
+The method loops through the array and adds each element to a running total."
+42,coding,Explain the difference between a compiler and an interpreter.,Claude,"Both compilers and interpreters turn high-level code into something a computer can run, but they work differently.
+
+- Compiler: translates the entire program into machine code (or bytecode) before it runs. The result is an executable file. Execution is usually faster, and errors are reported at compile time. Examples: C, C++, Go.
+- Interpreter: reads and executes the program line by line at run time without producing a separate executable. It is typically slower but offers easier debugging and flexibility. Examples: classic Python, JavaScript, Ruby.
+
+Many languages blend both: Java compiles to bytecode that the JVM runs, and Python compiles to bytecode that its interpreter executes."
+43,coding,Write a Python function that removes duplicates from a list.,Claude,"def remove_duplicates(items):
+    seen = set()
+    result = []
+    for item in items:
+        if item not in seen:
+            seen.add(item)
+            result.append(item)
+    return result
+
+print(remove_duplicates([1, 2, 2, 3, 1]))  # [1, 2, 3]
+
+This keeps the original order. If order does not matter, list(set(items)) is shorter."
+44,coding,Explain Big-O notation in simple terms.,Claude,"Big-O notation describes how the running time or memory use of an algorithm grows as the input size (n) grows. It focuses on the worst-case trend and ignores constants and small details.
+
+Common examples, from fastest to slowest growth:
+- O(1): constant time, such as accessing an array element by index.
+- O(log n): logarithmic, such as binary search.
+- O(n): linear, such as looping through a list once.
+- O(n log n): typical of efficient sorting like merge sort.
+- O(n^2): quadratic, such as nested loops over the same list.
+
+It helps you compare algorithms and predict how they behave on large inputs."
+45,coding,Write a simple recursive Python function for factorial.,Claude,"def factorial(n):
+    if n < 0:
+        raise ValueError(""n must be non-negative"")
+    if n == 0 or n == 1:   # base case
+        return 1
+    return n * factorial(n - 1)
+
+print(factorial(5))  # 120
+
+factorial(5) = 5 * 4 * 3 * 2 * 1. The function calls itself with a smaller number until it reaches the base case."
+46,math_reasoning,Explain how to solve a linear equation such as 3x + 5 = 20.,Claude,"To solve 3x + 5 = 20, isolate x by doing the same operation to both sides.
+
+1. Subtract 5 from both sides: 3x = 15.
+2. Divide both sides by 3: x = 5.
+3. Check: 3(5) + 5 = 20, which is correct.
+
+In general, undo addition or subtraction first, then undo multiplication or division."
+47,math_reasoning,What is the Pythagorean theorem and when is it used?,Claude,"The Pythagorean theorem states that in a right triangle, the square of the hypotenuse (the longest side, opposite the right angle) equals the sum of the squares of the other two sides: a^2 + b^2 = c^2.
+
+Example: if the legs are 3 and 4, then c^2 = 9 + 16 = 25, so c = 5.
+
+It is used to find a missing side of a right triangle, calculate distances between points, check whether a corner is square in construction, and in navigation, physics, and computer graphics."
+48,math_reasoning,"Explain the difference between mean, median, and mode.",Claude,"Mean, median, and mode are three measures of the center of a data set.
+
+- Mean: the average. Add all values and divide by how many there are.
+- Median: the middle value when the data is sorted (or the average of the two middle values if there is an even count). It is less affected by extreme values.
+- Mode: the value that appears most often. A set can have no mode or more than one.
+
+Example for 2, 3, 3, 5, 12: mean = 5, median = 3, mode = 3."
+49,math_reasoning,"Solve: If a car travels 180 miles in 3 hours, what is its average speed?",Claude,Average speed = distance / time = 180 miles / 3 hours = 60 miles per hour.
+50,math_reasoning,Explain what a probability of 0.25 means.,Claude,"A probability of 0.25 means an event has a 25 percent chance of happening, or 1 chance in 4. If you repeated the situation many times, you would expect the event to occur about one quarter of the time. For example, the chance of drawing a heart from a standard deck of cards is 13/52 = 0.25. It does not guarantee the outcome in any single trial."
+51,math_reasoning,Solve: A shirt costs $40 and is discounted by 25%. What is the sale price?,Claude,"Discount = 25% of $40 = 0.25 x 40 = $10.
+Sale price = $40 - $10 = $30.
+
+(Equivalent: pay 75% of the price, 0.75 x 40 = $30.)"
+52,math_reasoning,Explain the difference between permutation and combination.,Claude,"Both count ways to choose items from a group, but they differ on whether order matters.
+
+- Permutation: order matters. Arranging 3 people from a group of 5 in first, second, and third place: P(5,3) = 5!/(5-3)! = 60.
+- Combination: order does not matter. Choosing a team of 3 from 5 people: C(5,3) = 5!/(3!(5-3)!) = 10.
+
+Combinations are always fewer than or equal to permutations, since each group of r items can be arranged in r! orders."
+53,math_reasoning,Solve: What is 15% of 240?,Claude,15% of 240 = 0.15 x 240 = 36.
+54,math_reasoning,Explain what a derivative represents conceptually.,Claude,"A derivative measures how fast something is changing at a particular moment. Conceptually, it is the instantaneous rate of change of a function, or the slope of the tangent line to its graph at a point. For example, if a function gives a car's position over time, its derivative is the car's velocity at each instant; the derivative of velocity is acceleration. Derivatives let us find maximums and minimums, model motion, and understand how quantities respond to small changes."
+55,math_reasoning,"Solve: If x + y = 10 and x = 4, what is y?",Claude,"Substitute x = 4 into x + y = 10:
+4 + y = 10
+y = 10 - 4 = 6."
+56,math_reasoning,Explain how to find the area of a circle.,Claude,"The area of a circle is A = pi x r^2, where r is the radius (the distance from the center to the edge).
+
+Steps:
+1. Find the radius. If you have the diameter, divide it by 2.
+2. Square the radius.
+3. Multiply by pi (about 3.14159).
+
+Example: for r = 5, A = pi x 25, which is about 78.54 square units."
+57,math_reasoning,Solve: A class has 12 men and 18 women. What fraction of the class is women?,Claude,"The class has 12 + 18 = 30 students. Women make up 18 of them.
+
+Fraction = 18/30 = 3/5 (or 60%)."
+58,math_reasoning,Explain what standard deviation tells us.,Claude,"Standard deviation measures how spread out the values in a data set are from the mean. A small standard deviation means values cluster close to the average; a large one means they are more spread out. For example, test scores of 78, 80, and 82 have a smaller standard deviation than scores of 50, 80, and 110, even though both average 80. In a roughly bell-shaped distribution, about 68 percent of values fall within one standard deviation of the mean and about 95 percent within two."
+59,math_reasoning,"Solve: What is the next number in the sequence 2, 4, 8, 16, ?",Claude,"The next number is 32. Each term is double the previous one (2 x 2 = 4, 4 x 2 = 8, 8 x 2 = 16, 16 x 2 = 32). This is a geometric sequence with a common ratio of 2."
+60,math_reasoning,Explain why dividing by zero is undefined.,Claude,"Division asks how many times one number fits into another, and it is the inverse of multiplication: a / b = c means b x c = a.
+
+If we try 6 / 0 = c, we would need 0 x c = 6. But anything times 0 is 0, so no value of c works. Division by zero has no answer.
+
+The case 0 / 0 is also a problem: 0 x c = 0 is true for every c, so the answer is not unique (it is called indeterminate). Because there is no consistent result, mathematicians leave division by zero undefined."
+61,creative_writing,Write a short story about a robot that discovers music.,Claude,"Unit 7 had spent eleven years sorting packages in a quiet warehouse, and in all that time it had never heard anything it could not file under noise. Then one night, a cleaner left a radio playing in the loading bay.
+
+A piano drifted through the static. Unit 7 stopped, a box suspended in its metal fingers. The sound rose and fell with a shape it could not measure, and its sensors reported something its manual had no word for.
+
+It tracked the signal to the radio and listened until the song ended. Then it did something unplanned. It tapped the edge of a shelf, once, twice, three times, trying to answer.
+
+The next night, Unit 7 arranged empty bottles by size and tapped out a rhythm with a bolt. It was clumsy, but it was music.
+
+When the cleaner came back, she found the robot humming a wobbly tune beside a row of glass bottles. She smiled, turned the radio up, and sat down to listen."
+62,creative_writing,Write a paragraph describing a rainy city at night.,Claude,"Rain fell in silver threads across the city, turning the streets into dark mirrors that doubled every light. Neon signs smeared pink and green across the puddles, and car headlights slid past like slow comets. Umbrellas bobbed along the sidewalks, a river of black and red domes. Steam curled from a manhole cover, and somewhere above, a window glowed gold where someone was awake with a cup of tea. The air smelled of wet asphalt and fried dough from a food cart, and the whole city hummed softly beneath the drumming of the rain."
+63,creative_writing,Write a short dialogue between two friends who missed a train.,Claude,"Maya: Please tell me that is not the 8:15 pulling away.
+
+Jordan: It is. We missed it by about ten seconds.
+
+Maya: Ten seconds! If you had not stopped for coffee...
+
+Jordan: If you had not insisted on a second round of goodbye hugs, we would have made it.
+
+Maya: Fair. So what now?
+
+Jordan: The next one is in forty minutes. We could wait, or we could find somewhere warm.
+
+Maya: Warm sounds good. And this time, you are carrying the bags.
+
+Jordan: Deal. But you are buying the coffee."
+64,creative_writing,Write a brief story about someone finding a mysterious key.,Claude,"While cleaning her late grandmother's garden shed, Elena found a small brass key tucked inside a flowerpot, cold and heavy in her palm. A faded tag tied to it read only ""Third drawer.""
+
+Back in the house, she tried every desk and cabinet, but the key fit none of them. Then she noticed the old clock in the hallway had three tiny drawers hidden in its base. The third one clicked open.
+
+Inside lay a bundle of letters tied with blue ribbon, all addressed to Elena, one for each birthday she would have in the coming years. The first one began, ""I hoped you would be the curious one."" Elena smiled through tears and unfolded it."
+65,creative_writing,Describe a futuristic classroom in a creative way.,Claude,"The classroom of 2150 has no walls, only a shimmering dome of light that becomes whatever the lesson needs. Today it is the surface of Mars, red dust drifting across students' boots as they study geology by holding actual (holographic) rocks. Desks float like lily pads and drift into clusters when groups form. The teacher, a calm guide named Orion, is part human, part projection, and answers every question in the voice that suits each learner. When a student is confused, the ceiling softly glows green to signal help is coming. There are no bells, only a gentle chime that turns the sky from Martian orange to Earthly blue when it is time to go home."
+66,creative_writing,Write a short motivational paragraph for a student before an exam.,Claude,"You have prepared for this moment, and that matters more than you think. Take a deep breath and trust the hours you have put in. You do not need to be perfect; you only need to do your best with what you know. If a question feels hard, pause, breathe, and work through it one step at a time. Your worth is not measured by a single exam. Walk in calm, stay curious, and show what you have learned. You have got this."
+67,creative_writing,Write a brief fantasy scene set in an enchanted forest.,Claude,"Moonlight filtered through the canopy of the Whispering Wood, painting the ferns in silver. Lyra stepped carefully over roots that glowed faintly blue, each footfall sending ripples of light across the ground. Fireflies drifted around her like tiny lanterns, and the trees seemed to lean closer, murmuring in a language older than kings.
+
+""You are far from home, traveler,"" said a voice. A fox with eyes like amber stood on a mossy stump, its tail trailing sparks.
+
+""I seek the Heartstone,"" Lyra said.
+
+The fox tilted its head. ""Then follow the light that does not flicker."" Beyond the next bend, a single steady glow pulsed between the trees, calling her onward."
+68,creative_writing,Write a short story about a forgotten message in a bottle.,Claude,"Nora found the bottle on a gray morning, half buried in the sand, its cork cracked with age. Inside was a rolled page, brittle and brown, with ink that had faded to the color of tea.
+
+""To whoever finds this,"" it began, ""I am twelve, and I am sending my wish across the sea. I hope you are happy.""
+
+There was a date from forty years ago and a name, Tom, and an address three towns away. Nora spent the afternoon tracking it down. At a small blue house, an older man opened the door. When she held out the bottle, he stared, then laughed softly with wet eyes.
+
+""I wished for someone kind to find it,"" he said. ""Come in. I will make tea."""
+69,creative_writing,Describe a peaceful beach at sunrise.,Claude,"The beach is quiet in the first light of dawn. The sky blushes from deep violet to soft pink to gold as the sun lifts over the horizon, spilling a shimmering path across the water. Small waves roll in slowly and fold into foam that whispers over cool sand. Gulls glide overhead, and a lone sandpiper darts along the tide line. The air is salty and fresh, and the world feels hushed and new, as if the day is taking its first slow breath."
+70,creative_writing,Write a short scene about two astronauts seeing Earth from space.,Claude,"Commander Reyes floated beside the viewport, and for a moment neither of them spoke. Below them, Earth hung in the blackness, blue and white, impossibly delicate.
+
+""I thought it would feel bigger,"" said Dr. Okafor quietly.
+
+""It does,"" Reyes replied. ""And smaller. All at once.""
+
+Storm clouds swirled over an ocean, and a thin line of dawn crept across a continent. There were no borders, no lines, only light and water.
+
+""Everyone I have ever known is down there,"" Okafor whispered.
+
+Reyes nodded. ""Remember this view when we are back to arguing about the schedule.""
+
+Okafor laughed softly, and they watched the planet turn."
+71,creative_writing,Write a brief mystery opening involving a locked room.,Claude,"At 7:02 a.m., the butler found Lord Ashcombe's study door locked from the inside. The key was still in the lock, turned, and the windows were bolted, their curtains drawn. When the constable finally broke the door down, the room was silent and undisturbed. A cold cup of tea sat on the desk beside an open ledger, but the old man was nowhere to be seen. There was no hidden door, no trace of struggle, and no way out. Only one clue stood out: the fireplace clock had stopped at 3:17, and a single wet footprint, small and narrow, was drying on the rug."
+72,creative_writing,Write a paragraph describing a crowded coffee shop.,Claude,"The coffee shop buzzes like a hive. The espresso machine hisses and clatters while baristas call out names over the murmur of a dozen conversations. Laptops crowd every table, and the line curls around the pastry case, where croissants gleam under the lights. The air is thick with the smell of roasted beans and warm cinnamon. A toddler giggles near the window, someone laughs too loudly at a joke, and chairs scrape as a group squeezes in. Everyone is somehow alone and together, wrapped in the same warm, noisy glow."
+73,creative_writing,Write a short story about a student building their first app.,Claude,"Sam stared at the blinking cursor at 2 a.m. Three months ago, he had never written a line of code. Now he was building an app to help his classmates track study sessions.
+
+The first version crashed the moment he tapped the button. The second showed a blank screen. By the fifth, the app opened, and a tiny green timer appeared in the center. He pressed start. It counted: one, two, three.
+
+He laughed out loud in the empty dorm room. It was simple and slightly crooked, but it was his. He took a screenshot, sent it to his sister, and typed, ""I made this."" Then he got back to fixing the next bug."
+74,creative_writing,Describe an abandoned amusement park at night.,Claude,"Under a pale moon, the amusement park sleeps in ruins. The Ferris wheel stands rusted and still, its gondolas creaking in the wind like slow, tired sighs. Faded paint peels from the carousel horses, their frozen smiles gleaming faintly. Weeds push up through cracked asphalt, and a torn banner flaps over the ticket booth. Somewhere, a broken speaker crackles with a ghost of a melody. The roller coaster tracks twist into the darkness, and the silence feels as though laughter has just left the room."
+75,creative_writing,Write a short scene where a character receives unexpected good news.,Claude,"Priya almost let the phone ring out. Unknown number, late afternoon, probably another survey. She answered anyway.
+
+""Is this Priya Nair? This is the admissions office at Westbrook University.""
+
+Her stomach tightened. She had already prepared herself for the rejection.
+
+""We are pleased to tell you that you have been accepted, with a full scholarship.""
+
+The words did not register at first. She sat down on the stairs, hand over her mouth. ""Can you say that again?""
+
+The voice laughed kindly and repeated it. Priya felt tears spill over, and she began to laugh. Upstairs, her mother called, ""Who is it?"" Priya could barely speak. ""Mom, come down. Right now."""
+76,advice_explanation,Give a student advice for managing time during a busy semester.,Claude,"Here is practical advice for managing time in a busy semester:
+
+- Use one calendar for everything: classes, deadlines, work, and personal commitments. Add all assignment due dates from syllabi in the first week.
+- Plan weekly: each Sunday, list your tasks and assign them to specific time blocks.
+- Prioritize: tackle the most important and urgent work first. Do not let small tasks eat your best hours.
+- Break big tasks into smaller steps and start early, so deadlines do not pile up.
+- Study in focused blocks (such as 45 to 50 minutes) with short breaks, and silence your phone.
+- Protect sleep, meals, and some downtime so you do not burn out.
+- Learn to say no to commitments that do not matter.
+- Review weekly and adjust what is not working."
+77,advice_explanation,Explain how to prepare effectively for a job interview.,Claude,"To prepare effectively for a job interview:
+
+1. Research the company: its products, mission, recent news, and culture. Study the job description and note the key skills required.
+2. Prepare stories: use the STAR method (Situation, Task, Action, Result) for common behavioral questions such as teamwork, conflict, and failure.
+3. Practice out loud: rehearse answers to questions like ""Tell me about yourself"" and ""Why this role?"" with a friend or a recording.
+4. Prepare questions to ask: about the team, expectations, and growth.
+5. Handle logistics: choose your outfit, plan your route or test your video setup, and bring copies of your resume.
+6. On the day: arrive early, be polite to everyone, listen carefully, and give specific examples.
+7. Follow up: send a thank-you email within 24 hours."
+78,advice_explanation,Give advice for improving public speaking skills.,Claude,"To improve public speaking:
+
+- Know your material well, and organize it with a clear opening, main points, and conclusion.
+- Practice out loud, ideally standing and timed, and record yourself to spot filler words and pacing issues.
+- Start with a strong hook, such as a question, story, or surprising fact.
+- Manage nerves with slow breathing, and remember that the audience wants you to succeed.
+- Speak slowly, pause on purpose, and vary your tone.
+- Make eye contact and use natural gestures.
+- Focus on your audience's needs rather than on perfection.
+- Seek low-pressure practice, like clubs (Toastmasters), class presentations, or small meetings, and ask for feedback."
+79,advice_explanation,Explain how someone can build a consistent study routine.,Claude,"To build a consistent study routine:
+
+1. Choose set times: study at the same times each day or week so it becomes a habit. Pick times when your energy is best.
+2. Pick a dedicated space: a quiet, organized spot with few distractions.
+3. Start small: begin with 25 to 45 minute sessions and build up gradually.
+4. Plan each session: know exactly what you will work on, such as ""finish chapter 3 problems.""
+5. Use breaks: short breaks between sessions help you stay fresh (the Pomodoro technique is one option).
+6. Remove distractions: put your phone away or use app blockers.
+7. Track your progress with a checklist or calendar, and reward yourself for consistency.
+8. Review weekly, and adjust if something is not working."
+80,advice_explanation,Give advice for resolving a disagreement with a teammate.,Claude,"To resolve a disagreement with a teammate:
+
+- Pause first: cool down before talking so you respond rather than react.
+- Choose a private, calm time to talk.
+- Listen to understand: let them explain fully, and ask questions rather than assume motives.
+- Describe the issue, not the person: use ""I"" statements (""I feel concerned when deadlines slip"") instead of blame.
+- Find shared goals: remind each other of what you both want, such as a good project outcome.
+- Brainstorm options and compromise where possible.
+- Agree on clear next steps, and who will do what.
+- If you cannot resolve it, involve a neutral third party such as a manager or instructor.
+- Follow up later to confirm things are better."
+81,advice_explanation,Explain how to create a basic monthly budget.,Claude,"To create a basic monthly budget:
+
+1. Calculate your monthly income after taxes, including all sources.
+2. List fixed expenses: rent, utilities, insurance, loan payments, subscriptions.
+3. List variable expenses: groceries, transportation, dining out, entertainment. Review recent bank statements to estimate these.
+4. Set savings goals: an emergency fund, debt payoff, or future goals. A common guideline is 50% needs, 30% wants, 20% savings and debt.
+5. Compare: subtract total expenses and savings from income. The goal is a result of zero (every dollar has a job) or positive.
+6. Adjust: if expenses exceed income, cut wants or find extra income.
+7. Track spending during the month with a spreadsheet or app, and review and adjust at month end."
+82,advice_explanation,Give advice for staying focused while studying.,Claude,"To stay focused while studying:
+
+- Set a specific goal for each session, like ""complete 10 practice problems.""
+- Remove distractions: silence your phone, close extra tabs, and use website blockers if needed.
+- Use timed intervals, like 25 minutes of study and a 5 minute break (Pomodoro).
+- Study in a consistent, tidy space.
+- Start with the hardest task when your energy is highest.
+- Use active study methods, such as practice questions, summarizing aloud, and teaching concepts, rather than rereading.
+- Take real breaks: stand, stretch, hydrate, and step outside.
+- Get enough sleep, eat well, and exercise, since these strongly affect concentration.
+- Keep a notepad nearby to jot down distracting thoughts and return to them later."
+83,advice_explanation,Explain how to write a professional email to a professor.,Claude,"To write a professional email to a professor:
+
+1. Use a clear subject line: for example, ""Question about Assignment 2 - CS 101, Section 3.""
+2. Start with a polite greeting: ""Dear Professor Smith,"" (use their correct title).
+3. Introduce yourself briefly: your name, course, and section.
+4. State your purpose directly in a sentence or two, and give needed details. Show that you have checked the syllabus first.
+5. Be concise and respectful, with a polite request, such as asking for a meeting.
+6. Close with thanks: ""Thank you for your time,"" followed by ""Best regards,"" and your full name.
+7. Proofread for spelling and tone, and use your school email address.
+
+Allow a couple of business days for a reply before following up."
+84,advice_explanation,Give advice for preparing for a technical coding interview.,Claude,"To prepare for a technical coding interview:
+
+- Master fundamentals: arrays, strings, hash maps, linked lists, stacks, queues, trees, graphs, sorting and searching, recursion, and basic dynamic programming.
+- Practice regularly on platforms like LeetCode or HackerRank, starting with easy problems and progressing, ideally 1 or 2 per day.
+- Learn patterns: two pointers, sliding window, BFS and DFS, binary search, and backtracking.
+- Know Big-O complexity and be able to analyze your solutions.
+- Practice thinking aloud: clarify the problem, discuss examples and edge cases, propose an approach, then code and test.
+- Code by hand or on a whiteboard to simulate real conditions.
+- Do mock interviews with friends or online services.
+- Review your own projects, and prepare for behavioral and system design questions if relevant.
+- Rest well before the interview."
+85,advice_explanation,Explain how to break a large project into manageable tasks.,Claude,"To break a large project into manageable tasks:
+
+1. Define the goal and the deliverable. Be specific about what ""done"" looks like and the deadline.
+2. List major phases or components, such as research, design, building, testing, and presenting.
+3. Break each phase into smaller tasks that can be completed in a few hours or a day.
+4. Identify dependencies: what must be done before something else can start.
+5. Estimate time for each task, and add buffer for surprises.
+6. Prioritize and sequence tasks, and set mini-deadlines or milestones.
+7. Assign owners if working with others.
+8. Track progress with a checklist, planner, or board (such as Trello), and review regularly.
+9. Adjust the plan as you learn more."
+86,advice_explanation,Give advice for working effectively in a group project.,Claude,"To work effectively in a group project:
+
+- Set clear goals and expectations at the start, including the deadline and what a great result looks like.
+- Assign roles and tasks based on strengths and interests, and write down who owns what.
+- Create a schedule with milestones, and use shared tools for documents and communication.
+- Communicate often and openly. Hold short regular check-ins, and speak up early if you are stuck.
+- Listen to others, and respect different ideas.
+- Be reliable: deliver your part on time, and tell the group early if something changes.
+- Address problems directly and politely rather than letting resentment build.
+- Review the combined work together before submitting for consistency.
+- Give credit and appreciation to teammates."
+87,advice_explanation,Explain how to evaluate whether an online source is trustworthy.,Claude,"To evaluate whether an online source is trustworthy:
+
+1. Check the author: look for credentials, expertise, and a track record on the topic.
+2. Check the publisher: is it a reputable organization, such as a university, government agency, established news outlet, or peer-reviewed journal?
+3. Look for evidence: are claims backed by data, citations, or links to primary sources?
+4. Cross-check: confirm the information with other independent, reliable sources.
+5. Check the date: make sure the information is current for your topic.
+6. Watch for bias or purpose: is it trying to inform, sell, or persuade? Look for emotional language or one-sided arguments.
+7. Inspect the site: professional design, a clear About page, and transparent corrections policy are good signs. Be cautious about odd URLs or lots of ads.
+8. Be wary of sensational headlines that seem too good or too shocking to be true."
+88,advice_explanation,Give advice for improving note-taking during lectures.,Claude,"To improve note-taking during lectures:
+
+- Prepare beforehand: skim the readings or slides so the material is familiar.
+- Choose a method: the Cornell method (notes, cues, summary), outlines, or mind maps all work well.
+- Capture key ideas, not every word. Listen for signals like ""the main point is"" or repeated terms.
+- Use abbreviations and symbols to write faster.
+- Leave space to add details or questions later.
+- Note examples, formulas, and anything the instructor emphasizes.
+- Review notes within 24 hours: fill gaps, clarify unclear parts, and write a short summary.
+- Revisit them regularly with self-testing to strengthen memory.
+- If you type, avoid distractions; handwriting often boosts understanding."
+89,advice_explanation,Explain how to set realistic academic goals.,Claude,"To set realistic academic goals:
+
+1. Reflect on your current situation: your grades, schedule, strengths, and challenges.
+2. Define your larger purpose, such as a GPA, a skill, or a career path.
+3. Make goals SMART: Specific, Measurable, Achievable, Relevant, and Time-bound. For example, ""Raise my chemistry grade from a B- to a B+ by the end of the semester by doing practice problems three times a week.""
+4. Break goals into weekly or monthly steps.
+5. Consider your available time and other commitments, and avoid overloading.
+6. Challenge yourself without setting yourself up to fail: aim for stretch goals that are still reachable.
+7. Track your progress and celebrate milestones.
+8. Review and adjust regularly, and ask teachers or advisors for feedback."
+90,advice_explanation,Give advice for handling multiple deadlines in the same week.,Claude,"To handle multiple deadlines in the same week:
+
+1. List everything: write down every assignment, its due date, and the time it will take.
+2. Prioritize by due date and importance, and note which tasks carry the most weight in your grade.
+3. Break big tasks into smaller steps and schedule each in your calendar, working backward from the deadlines.
+4. Start with the most urgent or difficult tasks while your energy is high, but do not ignore later ones.
+5. Block focused time and eliminate distractions.
+6. Be realistic: if it is not possible to do everything perfectly, aim for good-quality work on the essential parts.
+7. Communicate early: ask an instructor about an extension if truly needed.
+8. Protect sleep, meals, and short breaks so you can keep working effectively.
+9. Reflect afterwards on how to plan earlier next time."

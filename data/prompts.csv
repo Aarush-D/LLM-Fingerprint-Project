@@ -1,0 +1,91 @@
+prompt_id,category,LLM_Input
+1,general_knowledge,Explain why the sky appears blue during the day.
+2,general_knowledge,Explain how a refrigerator keeps food cold.
+3,general_knowledge,Describe how the internet works in simple terms.
+4,general_knowledge,Explain the difference between weather and climate.
+5,general_knowledge,Why do humans need sleep?
+6,general_knowledge,Explain how airplanes are able to fly.
+7,general_knowledge,Describe how GPS determines someone's location.
+8,general_knowledge,Explain why leaves change color in the fall.
+9,general_knowledge,What causes ocean tides?
+10,general_knowledge,Explain how a microwave oven heats food.
+11,general_knowledge,Why does ice float on water?
+12,general_knowledge,Explain how a battery produces electricity.
+13,general_knowledge,Describe how vaccines help protect the human body.
+14,general_knowledge,Explain why seasons occur on Earth.
+15,general_knowledge,Describe how a search engine finds information.
+16,science,Explain the process of photosynthesis.
+17,science,What is the difference between DNA and RNA?
+18,science,Explain how gravity affects objects on Earth.
+19,science,Describe how the human heart pumps blood.
+20,science,What causes earthquakes?
+21,science,Explain how antibiotics work.
+22,science,Describe the water cycle.
+23,science,Explain what black holes are.
+24,science,Why do metals conduct electricity?
+25,science,Explain the greenhouse effect.
+26,science,Describe how neurons communicate with each other.
+27,science,What is natural selection?
+28,science,Explain how solar panels generate electricity.
+29,science,Describe the difference between acids and bases.
+30,science,Explain why the Moon has phases.
+31,coding,Write a Python function that reverses a list.
+32,coding,Explain the difference between a list and a tuple in Python.
+33,coding,Write a Java method that checks whether a string is a palindrome.
+34,coding,Explain what recursion is with a simple example.
+35,coding,Write a Python function that returns the largest number in a list.
+36,coding,Explain the difference between a stack and a queue.
+37,coding,Write a Java program that prints the numbers 1 through 10.
+38,coding,Explain what a binary search algorithm does.
+39,coding,Write a Python function that counts vowels in a string.
+40,coding,Explain what object-oriented programming is.
+41,coding,Write a Java method that finds the sum of an integer array.
+42,coding,Explain the difference between a compiler and an interpreter.
+43,coding,Write a Python function that removes duplicates from a list.
+44,coding,Explain Big-O notation in simple terms.
+45,coding,Write a simple recursive Python function for factorial.
+46,math_reasoning,Explain how to solve a linear equation such as 3x + 5 = 20.
+47,math_reasoning,What is the Pythagorean theorem and when is it used?
+48,math_reasoning,"Explain the difference between mean, median, and mode."
+49,math_reasoning,"Solve: If a car travels 180 miles in 3 hours, what is its average speed?"
+50,math_reasoning,Explain what a probability of 0.25 means.
+51,math_reasoning,Solve: A shirt costs $40 and is discounted by 25%. What is the sale price?
+52,math_reasoning,Explain the difference between permutation and combination.
+53,math_reasoning,Solve: What is 15% of 240?
+54,math_reasoning,Explain what a derivative represents conceptually.
+55,math_reasoning,"Solve: If x + y = 10 and x = 4, what is y?"
+56,math_reasoning,Explain how to find the area of a circle.
+57,math_reasoning,Solve: A class has 12 men and 18 women. What fraction of the class is women?
+58,math_reasoning,Explain what standard deviation tells us.
+59,math_reasoning,"Solve: What is the next number in the sequence 2, 4, 8, 16, ?"
+60,math_reasoning,Explain why dividing by zero is undefined.
+61,creative_writing,Write a short story about a robot that discovers music.
+62,creative_writing,Write a paragraph describing a rainy city at night.
+63,creative_writing,Write a short dialogue between two friends who missed a train.
+64,creative_writing,Write a brief story about someone finding a mysterious key.
+65,creative_writing,Describe a futuristic classroom in a creative way.
+66,creative_writing,Write a short motivational paragraph for a student before an exam.
+67,creative_writing,Write a brief fantasy scene set in an enchanted forest.
+68,creative_writing,Write a short story about a forgotten message in a bottle.
+69,creative_writing,Describe a peaceful beach at sunrise.
+70,creative_writing,Write a short scene about two astronauts seeing Earth from space.
+71,creative_writing,Write a brief mystery opening involving a locked room.
+72,creative_writing,Write a paragraph describing a crowded coffee shop.
+73,creative_writing,Write a short story about a student building their first app.
+74,creative_writing,Describe an abandoned amusement park at night.
+75,creative_writing,Write a short scene where a character receives unexpected good news.
+76,advice_explanation,Give a student advice for managing time during a busy semester.
+77,advice_explanation,Explain how to prepare effectively for a job interview.
+78,advice_explanation,Give advice for improving public speaking skills.
+79,advice_explanation,Explain how someone can build a consistent study routine.
+80,advice_explanation,Give advice for resolving a disagreement with a teammate.
+81,advice_explanation,Explain how to create a basic monthly budget.
+82,advice_explanation,Give advice for staying focused while studying.
+83,advice_explanation,Explain how to write a professional email to a professor.
+84,advice_explanation,Give advice for preparing for a technical coding interview.
+85,advice_explanation,Explain how to break a large project into manageable tasks.
+86,advice_explanation,Give advice for working effectively in a group project.
+87,advice_explanation,Explain how to evaluate whether an online source is trustworthy.
+88,advice_explanation,Give advice for improving note-taking during lectures.
+89,advice_explanation,Explain how to set realistic academic goals.
+90,advice_explanation,Give advice for handling multiple deadlines in the same week.

@@ -1,0 +1,21 @@
+Model: cnn
+Mode: both
+Labels: ['Claude', 'GPT', 'Gemini']
+Test loss: 1.1142
+Test accuracy: 0.4146
+
+Classification report:
+              precision    recall  f1-score   support
+
+      Claude     0.4000    0.4615    0.4286        13
+         GPT     0.4000    0.4286    0.4138        14
+      Gemini     0.4545    0.3571    0.4000        14
+
+    accuracy                         0.4146        41
+   macro avg     0.4182    0.4158    0.4141        41
+weighted avg     0.4186    0.4146    0.4138        41
+
+Confusion matrix:
+[[6 4 3]
+ [5 6 3]
+ [4 5 5]]

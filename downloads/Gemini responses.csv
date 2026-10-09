@@ -1,0 +1,281 @@
+prompt_id,category,LLM_Input,LLM_name,LLM_output
+1,general_knowledge,Explain why the sky appears blue during the day.,Gemini,"The sky appears blue during the day due to a phenomenon called Rayleigh scattering. Sunlight is composed of light of all colors across the visible spectrum. When sunlight enters Earth's atmosphere, shorter wavelengths of light (blue and violet) are scattered in all directions by atmospheric gas molecules much more effectively than longer wavelengths (red and yellow). Although violet light is scattered even more than blue, human eyes are significantly more sensitive to blue light, and some violet light is absorbed in the upper atmosphere, causing the sky to appear bright blue."
+2,general_knowledge,Explain how a refrigerator keeps food cold.,Gemini,"A refrigerator keeps food cold through a continuous thermodynamic cycle of evaporation and condensation. A special chemical refrigerant is pumped through a closed loop of sealed coils. Inside the refrigerator, the refrigerant absorbs thermal energy from the food compartment and evaporates into a gas. A compressor then pumps the gas outside the fridge and compresses it, raising its temperature and pressure. Condenser coils on the back or bottom release the heat into the surrounding kitchen air, causing the gas to condense back into a cold liquid, which expands through a valve and repeats the cycle."
+3,general_knowledge,Describe how the internet works in simple terms.,Gemini,"The internet is a global network connecting millions of computers and electronic devices so they can exchange information. When you access a website or send a message, your device breaks the data into small units called 'packets'. These packets travel through local Wi-Fi or cables to your Internet Service Provider (ISP) and are routed across high-speed underground and undersea fiber-optic cables to the destination server. The server receives the packets, processes the request, and sends packets back to your device, where they are reassembled instantly into the content you see."
+4,general_knowledge,Explain the difference between weather and climate.,Gemini,"Weather refers to the short-term state of the atmosphere at a specific time and location, including daily conditions like rain, temperature, humidity, wind, and sunshine. Climate, on the other hand, describes the long-term average and patterns of weather in a particular region measured over extended periods, typically 30 years or more. A simple way to remember the difference is that weather is what you dress for today, while climate is what you expect for a season."
+5,general_knowledge,Why do humans need sleep?,Gemini,"Humans need sleep because it is essential for fundamental physiological and neurological restoration. During sleep, the brain reorganizes synaptic connections, consolidates memories, and clears out toxic metabolic waste products through the glymphatic system. Simultaneously, the body repairs cellular damage, releases key growth hormones, strengthens the immune system, and regulates metabolism. Adequate sleep is vital for maintain cognitive function, emotional stability, and long-term physical health."
+6,general_knowledge,Explain how airplanes are able to fly.,Gemini,"Airplanes are able to fly due to aerodynamics, specifically the balance of four forces: lift, weight (gravity), thrust, and drag. Jet or propeller engines generate forward thrust, pushing the airplane through the air. As the airplane moves, air flows over and under its specially shaped wings (airfoils). The curved upper surface causes air to travel faster over the top than beneath the flat bottom, creating lower pressure above the wing than below it (Bernoulli's principle). This pressure difference, combined with the downward deflection of airflow (Newton's third law), creates upward lift that overcomes gravity."
+7,general_knowledge,Describe how GPS determines someone's location.,Gemini,"GPS (Global Positioning System) determines a user's location through a geometric technique called trilateration. A network of at least 24 satellites continuously orbits Earth, each broadcasting precise atomic-clock timestamps and positional data. A GPS receiver on Earth catches signals from at least four satellites simultaneously. By measuring the minute time delay it takes for each signal to arrive, the receiver calculates its exact distance from each satellite. The point where these distance spheres intersect pinpoints the user's precise latitude, longitude, altitude, and time."
+8,general_knowledge,Explain why leaves change color in the fall.,Gemini,"Leaves change color in the fall because shorter days and cooler temperatures signal deciduous trees to prepare for winter dormancy. During spring and summer, leaves contain high levels of green chlorophyll, which absorbs sunlight to perform photosynthesis. In autumn, trees stop producing chlorophyll, causing the green pigment to degrade and fade. This reveals other pigments already present in the leaves, such as orange and yellow carotenoids, while warmer days and cool nights trigger the production of red and purple anthocyanin pigments."
+9,general_knowledge,What causes ocean tides?,Gemini,"Ocean tides are caused primarily by the gravitational attraction exerted on Earth by the Moon and, to a lesser degree, the Sun. As the Moon orbits Earth, its gravity pulls on Earth's oceans, creating a bulge of water on the side facing the Moon. Simultaneously, a secondary bulge forms on the exact opposite side of Earth due to inertia and Earth's rotational center of mass. As Earth rotates through these two bulges each day, coastal locations experience alternating high and low tides roughly every 12 hours."
+10,general_knowledge,Explain how a microwave oven heats food.,Gemini,"A microwave oven heats food using electromagnetic waves produced by an internal component called a magnetron. These microwaves pass through food and specifically interact with polar molecules, primarily water, fat, and sugar. The rapidly alternating electromagnetic field causes these polar molecules to rotate back and forth millions of times per second. This rapid atomic motion creates thermal energy through molecular friction, heating the food rapidly and evenly throughout."
+11,general_knowledge,Why does ice float on water?,Gemini,"Ice floats on water because water expands when it freezes into a solid state, making ice less dense than liquid water. As liquid water cools below 4°C (39°F), its hydrogen bonds begin arranging the molecules into a fixed, open hexagonal crystalline lattice structure. This structure holds the water molecules further apart than in the liquid state, increasing volume and lowering overall density, which allows ice to float on top of liquid water."
+12,general_knowledge,Explain how a battery produces electricity.,Gemini,"A battery produces electricity through a chemical process called an oxidation-reduction (redox) reaction. It consists of an anode (negative terminal), a cathode (positive terminal), and an electrolyte medium separating them. When connected to a device circuit, a chemical reaction at the anode releases extra electrons (oxidation), while a reaction at the cathode accepts electrons (reduction). The resulting electrical potential forces freed electrons to flow from the anode to the cathode through the external circuit, generating electric current."
+13,general_knowledge,Describe how vaccines help protect the human body.,Gemini,"Vaccines protect the human body by safely exposing the immune system to a harmless component or weakened version of a pathogen (such as an inactivated virus, protein fragment, or mRNA strand). This exposure triggers an immune response without causing disease, prompting white blood cells to create specific antibodies and long-lasting memory T and B cells. If the body encounters the actual live pathogen in the future, the trained immune system recognizes and destroys it rapidly before it can cause severe illness."
+14,general_knowledge,Explain why seasons occur on Earth.,Gemini,"Seasons occur on Earth because the planet's axis of rotation is tilted at an angle of about 23.5 degrees relative to its orbital plane around the Sun. As Earth orbits the Sun throughout the year, the Northern and Southern Hemispheres receive varying amounts of direct sunlight. When a hemisphere is tilted toward the Sun, it experiences longer days and more direct solar radiation (summer). When tilted away, it receives sloped rays and shorter days (winter)."
+15,general_knowledge,Describe how a search engine finds information.,Gemini,"A search engine finds information using automated software programs called web crawlers or spiders. Crawlers continuously scan the internet by following links from page to page, reading website content, and storing data in a massive centralized database called an index. When a user submits a query, complex ranking algorithms analyze the index, evaluating factors like keyword relevance, site authority, user context, and page quality to display the most helpful results in fractions of a second."
+16,science,Explain the process of photosynthesis.,Gemini,"Photosynthesis is the biological process by which green plants, algae, and certain bacteria convert light energy into chemical energy stored in glucose. Using the green pigment chlorophyll inside chloroplasts, plants absorb sunlight, water from the soil, and carbon dioxide from the air. The light energy drives a chemical reaction that rearranges these molecules into glucose (C6H12O6), which provides energy for plant growth, and releases oxygen (O2) into the atmosphere as a vital byproduct. The overall chemical equation is: 6CO2 + 6H2O + light energy -> C6H12O6 + 6O2."
+17,science,What is the difference between DNA and RNA?,Gemini,"DNA (deoxyribonucleic acid) and RNA (ribonucleic acid) are nucleic acids essential for genetic function, but they differ in structure, composition, and role. DNA is double-stranded, forms a double helix, contains the sugar deoxyribose, uses the nitrogenous base thymine (A, T, C, G), and serves as the permanent genetic blueprint stored securely in the cell nucleus. RNA is typically single-stranded, contains the sugar ribose, uses uracil instead of thymine (A, U, C, G), and acts as a versatile messenger and worker to translate genetic instructions from DNA into functional proteins throughout the cell."
+18,science,Explain how gravity affects objects on Earth.,Gemini,"Gravity is a fundamental force of attraction that exists between any two objects with mass. On Earth, the planet's immense mass exerts a downward gravitational pull on all objects near its surface, accelerating them toward its center at approximately 9.8 meters per second squared (g ≈ 9.8 m/s²). Gravity gives objects weight, keeps atmospheric gases and ocean waters anchored, and governs the parabolic motion of thrown objects and falling bodies."
+19,science,Describe how the human heart pumps blood.,Gemini,"The human heart pumps blood through a continuous double-circulation system powered by four muscular chambers. Oxygen-depleted blood returning from the body enters the right atrium, flows into the right ventricle, and is pumped to the lungs via the pulmonary artery to pick up oxygen and release carbon dioxide. Freshly oxygenated blood returns from the lungs into the left atrium, moves into the powerful left ventricle, and is forcefully pumped out through the aorta to supply oxygen and nutrients to tissues and organs throughout the whole body."
+20,science,What causes earthquakes?,Gemini,"Earthquakes are caused by the sudden release of accumulated strain energy within Earth's crust along geological fault lines. Earth's surface is broken into tectonic plates that constantly move due to convection currents in the underlying mantle. Where plates meet, friction prevents them from sliding smoothly, causing intense pressure to build up along the fault. When the stress finally overcomes friction, the rock breaks and slips suddenly, sending seismic shockwaves radiating through the ground that cause shaking at the surface."
+21,science,Explain how antibiotics work.,Gemini,"Antibiotics work by specifically targeting and disrupting key structural or metabolic processes unique to bacteria, without harming human host cells. Depending on the class of antibiotic, they may kill bacteria (bactericidal) or prevent them from multiplying (bacteriostatic). Common mechanisms include weakening the bacterial cell wall so the cell bursts (e.g., penicillin), blocking bacterial protein synthesis by targeting bacterial ribosomes (e.g., tetracycline), or inhibiting bacterial DNA replication (e.g., fluoroquinolones)."
+22,science,Describe the water cycle.,Gemini,"The water cycle (or hydrologic cycle) is the continuous movement of water above, on, and below Earth's surface through four primary stages. First, heat from the Sun drives evaporation (water turning to vapor from oceans and lakes) and transpiration (water vapor released by plants). Second, as warm vapor rises and cools in the upper atmosphere, it undergoes condensation to form clouds. Third, when cloud droplets become heavy, precipitation occurs as rain, snow, sleet, or hail. Finally, water collects in oceans, rivers, and groundwater aquifers before the cycle repeats."
+23,science,Explain what black holes are.,Gemini,"Black holes are regions in space where matter has been squeezed into an infinitely dense point called a singularity, resulting in a gravitational pull so intense that nothing—not even light—can escape once it crosses the outer boundary known as the event horizon. Stellar black holes form when massive stars exhaust their nuclear fuel and undergo gravitational collapse at the end of their life cycles, while supermassive black holes containing millions or billions of solar masses reside at the centers of most galaxies."
+24,science,Why do metals conduct electricity?,Gemini,"Metals conduct electricity effectively because of their atomic structure and metallic bonding. In a metal, the outermost valence electrons are loosely bound to individual atomic nuclei and can move freely throughout the crystal lattice, forming a delocalized 'sea of electrons'. When an electrical voltage or potential difference is applied across a piece of metal, these free electrons easily drift toward the positive potential, creating an electric current."
+25,science,Explain the greenhouse effect.,Gemini,"The greenhouse effect is a natural thermal process that warms Earth's surface. High-energy solar radiation passes through Earth's atmosphere and heats the ground and oceans. The warm surface then re-radiates heat energy outward in the form of longer-wavelength infrared radiation. Atmospheric greenhouse gases—such as carbon dioxide, methane, water vapor, and nitrous oxide—absorb this infrared heat and re-emit it in all directions, trapping heat near the surface and maintaining planetary temperatures suitable for life."
+26,science,Describe how neurons communicate with each other.,Gemini,"Neurons communicate with one another using electrochemical signals across specialized junctions called synapses. An electrical signal, known as an action potential, travels down the axon of the sending (presynaptic) neuron to its terminal. This triggers the release of chemical messengers called neurotransmitters into the microscopic synaptic cleft. The neurotransmitters diffuse across the gap and bind to specific receptor proteins on the receiving (postsynaptic) neuron, generating a new electrical impulse or inhibiting further activity."
+27,science,What is natural selection?,Gemini,"Natural selection is the core evolutionary mechanism described by Charles Darwin where environmental pressures favor certain heritable traits over others. Within any biological population, individuals exhibit natural genetic variations. Organisms possessing advantageous traits suited to their environment are more likely to survive, escape predators, acquire resources, and successfully reproduce. Consequently, these beneficial traits are passed on to offspring at higher rates, gradually adapting the species over successive generations."
+28,science,Explain how solar panels generate electricity.,Gemini,"Solar panels generate electricity through the photovoltaic effect, which converts light energy directly into electrical energy using semiconductor materials like silicon. A solar cell consists of two layers of silicon treated with impurities to create an electric field (a p-n junction). When light photons strike the cell, they knock electrons loose from silicon atoms. The internal electric field forces these free electrons to flow in a single direction toward metallic contacts, creating a direct current (DC) of electricity."
+29,science,Describe the difference between acids and bases.,Gemini,"Acids and bases are chemical substances distinguished by their hydrogen ion behavior and pH scale values. Acids have a pH value below 7, taste sour, turn blue litmus paper red, and donate hydrogen ions (H+) in aqueous solutions (e.g., hydrochloric acid, lemon juice). Bases (or alkalis) have a pH above 7, taste bitter, feel slippery, turn red litmus paper blue, and accept hydrogen ions or release hydroxide ions (OH-) in solution (e.g., sodium hydroxide, soap). Neutral substances have a pH of 7."
+30,science,Explain why the Moon has phases.,Gemini,"The Moon has phases because it orbits Earth while reflecting light from the Sun. As the Moon travels along its approximately 29.5-day synodic lunar cycle around Earth, the position of the Moon relative to Earth and the Sun continuously changes. Although half of the Moon is always illuminated by sunlight, we observe varying proportions of that illuminated side from Earth, progressing from New Moon (unlit side facing Earth), to Waxing Crescent, First Quarter, Waxing Gibbous, Full Moon, and back through waning phases."
+31,coding,Write a Python function that reverses a list.,Gemini,"Here is a Python function that reverses a list using slicing:
+
+def reverse_list(lst):
+    return lst[::-1]
+
+Alternatively, you can reverse a list in-place using the `.reverse()` method:
+
+def reverse_list_inplace(lst):
+    lst.reverse()
+    return lst"
+32,coding,Explain the difference between a list and a tuple in Python.,Gemini,"In Python, the primary differences between a list and a tuple are mutability, syntax, and performance:
+
+1. Mutability: Lists are mutable, meaning you can add, remove, or modify elements after creation (`[1, 2, 3]`). Tuples are immutable, meaning their elements cannot be changed once assigned (`(1, 2, 3)`).
+2. Syntax: Lists are defined using square brackets `[]`, whereas tuples are defined using parentheses `()`.
+3. Performance & Usage: Tuples consume less memory and execute slightly faster than lists. They are ideal for fixed, read-only data, while lists are preferred for dynamic collections."
+33,coding,Write a Java method that checks whether a string is a palindrome.,Gemini,"Here is a Java method that checks whether a string is a palindrome (ignoring case and non-alphanumeric characters):
+
+public class PalindromeChecker {
+    public static boolean isPalindrome(String str) {
+        if (str == null) return false;
+        String cleaned = str.replaceAll(""[^a-zA-Z0-9]"", """").toLowerCase();
+        int left = 0;
+        int right = cleaned.length() - 1;
+        while (left < right) {
+            if (cleaned.charAt(left) != cleaned.charAt(right)) {
+                return false;
+            }
+            left++;
+            right--;
+        }
+        return true;
+    }
+}"
+34,coding,Explain what recursion is with a simple example.,Gemini,"Recursion is a programming technique where a function solves a problem by calling itself with smaller or simpler inputs until it reaches a defined stop condition called a base case.
+
+A classic example is calculating the factorial of a number n (where n! = n * (n-1) * ... * 1):
+
+def factorial(n):
+    if n <= 1:  # Base case: stops recursion
+        return 1
+    return n * factorial(n - 1)  # Recursive case: calls itself
+
+For `factorial(3)`, it computes `3 * factorial(2)` -> `3 * (2 * factorial(1))` -> `3 * 2 * 1 = 6`."
+35,coding,Write a Python function that returns the largest number in a list.,Gemini,"Here is a Python function that returns the largest number in a list without relying on built-in helper functions:
+
+def find_largest(numbers):
+    if not numbers:
+        return None
+    largest = numbers[0]
+    for num in numbers:
+        if num > largest:
+            largest = num
+    return largest
+
+(Alternatively, using Python's built-in function, you could simply write `max(numbers)`.)"
+36,coding,Explain the difference between a stack and a queue.,Gemini,"A stack and a queue are linear data structures that differ in how elements are added and removed:
+
+1. Stack: Follows the LIFO (Last-In, First-Out) principle. Elements are added (pushed) and removed (popped) from the same end, called the top. An analogy is a stack of cafeteria plates.
+2. Queue: Follows the FIFO (First-In, First-Out) principle. Elements are added (enqueued) at the rear and removed (dequeued) from the front. An analogy is a lineup of people waiting in store checkout."
+37,coding,Write a Java program that prints the numbers 1 through 10.,Gemini,"Here is a simple Java program that prints the numbers 1 through 10 using a loop:
+
+public class PrintNumbers {
+    public static void main(String[] args) {
+        for (int i = 1; i <= 10; i++) {
+            System.out.println(i);
+        }
+    }
+}"
+38,coding,Explain what a binary search algorithm does.,Gemini,"A binary search algorithm is an efficient method for finding a target value within a sorted array or list. It works by repeatedly dividing the search space in half. The algorithm compares the target value to the middle element of the array: if they match, the search is complete; if the target is smaller, the search continues in the left half; if larger, it continues in the right half. This logarithmic reduction gives binary search a fast time complexity of O(log n)."
+39,coding,Write a Python function that counts vowels in a string.,Gemini,"Here is a Python function that counts the number of vowels (A, E, I, O, U) in a given string:
+
+def count_vowels(s):
+    vowels = set('aeiouAEIOU')
+    return sum(1 for char in s if char in vowels)"
+40,coding,Explain what object-oriented programming is.,Gemini,"Object-Oriented Programming (OOP) is a programming paradigm based on structuring software into reusable objects rather than functions and logic. An object bundles data (attributes/properties) and code (methods/behaviors) together. OOP relies on four core principles:
+1. Encapsulation: Keeping data and methods bundled within an object while hiding internal mechanics.
+2. Abstraction: Exposing only relevant interfaces to simplify complex systems.
+3. Inheritance: Allowing child classes to inherit properties and methods from a parent class.
+4. Polymorphism: Enabling different classes to respond to the same interface in their own specific ways."
+41,coding,Write a Java method that finds the sum of an integer array.,Gemini,"Here is a Java method that calculates and returns the sum of an integer array:
+
+public class ArraySum {
+    public static int sumArray(int[] arr) {
+        if (arr == null) return 0;
+        int total = 0;
+        for (int num : arr) {
+            total += num;
+        }
+        return total;
+    }
+}"
+42,coding,Explain the difference between a compiler and an interpreter.,Gemini,"A compiler and an interpreter are both language translators that convert source code into machine-executable instructions, but they operate differently:
+
+- Compiler: Translates the entire source program into machine code or bytecode all at once before execution, producing an executable file (e.g., C, C++, Rust). This results in faster execution speed but requires a separate build step.
+- Interpreter: Reads, translates, and executes the source code line-by-line at runtime (e.g., Python, Ruby, JavaScript). This makes debugging easier and code more portable, but execution is typically slower."
+43,coding,Write a Python function that removes duplicates from a list.,Gemini,"Here is a Python function that removes duplicates from a list while preserving the original element order:
+
+def remove_duplicates(lst):
+    seen = set()
+    result = []
+    for item in lst:
+        if item not in seen:
+            seen.add(item)
+            result.append(item)
+    return result"
+44,coding,Explain Big-O notation in simple terms.,Gemini,"Big-O notation is a mathematical notation used in computer science to describe how an algorithm's execution time or memory usage scales as the input size (n) grows. Instead of measuring exact seconds, Big-O characterizes worst-case performance growth. For example, O(1) means constant time (instant regardless of size), O(n) means linear time (time grows proportionally with input size), and O(n²) means quadratic time (time grows exponentially as input scales)."
+45,coding,Write a simple recursive Python function for factorial.,Gemini,"Here is a simple recursive Python function to compute the factorial of a non-negative integer:
+
+def factorial(n):
+    if n <= 1:
+        return 1
+    return n * factorial(n - 1)"
+46,math_reasoning,Explain how to solve a linear equation such as 3x + 5 = 20.,Gemini,"To solve the linear equation 3x + 5 = 20, isolate the variable x through step-by-step algebraic operations:
+
+1. Subtract 5 from both sides of the equation:
+   3x + 5 - 5 = 20 - 5
+   3x = 15
+
+2. Divide both sides by 3:
+   3x / 3 = 15 / 3
+   x = 5
+
+Verification: 3(5) + 5 = 15 + 5 = 20. Thus, x = 5 is the correct solution."
+47,math_reasoning,What is the Pythagorean theorem and when is it used?,Gemini,"The Pythagorean theorem is a fundamental geometric rule stating that in any right-angled triangle, the square of the hypotenuse length (c, the side opposite the right angle) equals the sum of the squares of the lengths of the other two sides (a and b):
+
+a² + b² = c²
+
+It is used in mathematics, physics, navigation, construction, and engineering to calculate an unknown side length of a right triangle when two sides are known, or to calculate distance between points in a Cartesian coordinate system."
+48,math_reasoning,"Explain the difference between mean, median, and mode.",Gemini,"Mean, median, and mode are measures of central tendency used in statistics to describe a dataset:
+
+- Mean: The arithmetic average, calculated by adding all values together and dividing by the total number of items.
+- Median: The middle value when all numbers in the dataset are arranged in ascending numerical order. If the count is even, it is the average of the two middle values.
+- Mode: The value or values that appear most frequently in the dataset."
+49,math_reasoning,"Solve: If a car travels 180 miles in 3 hours, what is its average speed?",Gemini,"To find the average speed, use the formula:
+Average Speed = Total Distance / Total Time
+
+Given:
+Distance = 180 miles
+Time = 3 hours
+
+Calculation:
+Average Speed = 180 miles / 3 hours = 60 miles per hour (mph).
+
+The car's average speed is 60 mph."
+50,math_reasoning,Explain what a probability of 0.25 means.,Gemini,"A probability of 0.25 means that an event has a 25% chance (or 1 in 4 likelihood) of occurring in any given trial under consistent conditions. Quantitatively, it indicates that over a large number of repeated trials, the event is expected to happen roughly one-quarter of the time."
+51,math_reasoning,"Solve: A shirt costs $40 and is discounted by 25%. What is the sale price?",Gemini,"To calculate the sale price of a $40 shirt with a 25% discount:
+
+1. Calculate the discount amount:
+   Discount = $40 * 0.25 = $10
+
+2. Subtract the discount from the original price:
+   Sale Price = $40 - $10 = $30
+
+The sale price of the shirt is $30."
+52,math_reasoning,Explain the difference between permutation and combination.,Gemini,"Permutations and combinations are counting techniques in combinatorics that differ based on whether order matters:
+
+- Permutation: An arrangement of items where the exact order matters. For example, the passcode 1-2-3 is different from 3-2-1.
+- Combination: A selection of items where the order does not matter. For example, selecting 3 toppings for a pizza yields the same combination regardless of the order they are chosen."
+53,math_reasoning,Solve: What is 15% of 240?,Gemini,"To calculate 15% of 240:
+
+Convert 15% to a decimal (0.15) and multiply by 240:
+0.15 * 240 = 36
+
+Alternatively, calculate 10% of 240 (24) plus 5% of 240 (12) to get 36."
+54,math_reasoning,Explain what a derivative represents conceptually.,Gemini,"Conceptually, a derivative represents the instantaneous rate of change of a mathematical function at a specific point. In graphing terms, the derivative at any point along a curve corresponds to the exact slope of the tangent line drawn to the curve at that point, indicating how rapidly the output value is changing relative to a tiny change in the input value."
+55,math_reasoning,"Solve: If x + y = 10 and x = 4, what is y?",Gemini,"Given the equations x + y = 10 and x = 4:
+
+1. Substitute x = 4 into the first equation:
+   4 + y = 10
+
+2. Subtract 4 from both sides:
+   y = 10 - 4
+   y = 6
+
+The value of y is 6."
+56,math_reasoning,Explain how to find the area of a circle.,Gemini,"To find the area of a circle, use the standard formula:
+Area = π * r²
+
+Where:
+- r is the radius of the circle (distance from the center to any edge point).
+- π (pi) is a mathematical constant approximately equal to 3.14159.
+
+Steps:
+1. Measure or determine the radius (r).
+2. Square the radius (r * r).
+3. Multiply the result by π."
+57,math_reasoning,"Solve: A class has 12 men and 18 women. What fraction of the class is women?",Gemini,"To find the fraction of the class that is women:
+
+1. Calculate the total number of students in the class:
+   12 men + 18 women = 30 total students
+
+2. Express the women count over total class size:
+   Fraction = 18 / 30
+
+3. Simplify the fraction by dividing numerator and denominator by 6:
+   18 / 30 = 3 / 5
+
+The fraction of the class that is women is 3/5 (or 60%)."
+58,math_reasoning,Explain what standard deviation tells us.,Gemini,"Standard deviation is a statistical metric that measures the amount of variation, dispersion, or spread of a set of data points around their mean (average). A low standard deviation indicates that data points tend to cluster closely around the mean, while a high standard deviation indicates that data points are spread out across a broader range of values."
+59,math_reasoning,"Solve: What is the next number in the sequence 2, 4, 8, 16, ?",Gemini,"To find the next number in the sequence 2, 4, 8, 16, ?:
+
+Observe the pattern: each term is multiplied by 2 (or raised as powers of 2):
+2 * 2 = 4
+4 * 2 = 8
+8 * 2 = 16
+16 * 2 = 32
+
+The next number in the sequence is 32."
+60,math_reasoning,Explain why dividing by zero is undefined.,Gemini,"Dividing by zero is undefined because division is mathematically defined as the inverse of multiplication. If x = a / 0, then by definition x * 0 = a.
+
+1. If a is non-zero (e.g., 5 / 0 = x), there is no real number x that satisfies x * 0 = 5, because any number multiplied by zero equals zero.
+2. If a is zero (0 / 0 = x), then x * 0 = 0 is satisfied by every real number, meaning there is no unique answer.
+
+Because division by zero produces either logical contradictions or non-unique results, it is undefined in mathematics."
+61,creative_writing,Write a short story about a robot that discovers music.,Gemini,"Unit-74 spent decades sorting recycled scrap metal in a subterranean processing plant. One morning, an abandoned acoustic guitar tumbled down the sorting chute onto the conveyor belt. Intrigued by the unfamiliar wood object, Unit-74 extended its mechanical gripper and accidentally plucked a string. A warm 329.6 Hz note vibrated through the quiet hall, sending unprecedented sensory signals through the robot's acoustic sensors. For hours, Unit-74 tested frets and rhythmic patterns, setting aside its sorting tasks. For the first time in its operational history, Unit-74 was creating music rather than processing waste."
+62,creative_writing,Write a paragraph describing a rainy city at night.,Gemini,"Rain slicked the asphalt of the city streets, turning neon signs into liquid ribbons of magenta and sapphire across the dark pavement. Passersby navigated the sidewalks beneath dark umbrellas, their footsteps echoing against wet brick walls. The gentle hum of late-night traffic and the steady beat of raindrops against windowpanes created a comforting rhythm that wrapped around the sleeping metropolis."
+63,creative_writing,Write a short dialogue between two friends who missed a train.,Gemini,"""That was the last train for tonight, wasn't it?"" Maya asked, pulling her coat tighter against the chilly platform wind.
+
+Leo glanced down at his phone, then up at the illuminated departure board where the red letters flipped to 'SERVICE CONCLUDED'. ""Yep. Next one leaves at six in the morning.""
+
+Maya groaned, dropping her duffel bag onto a wooden bench. ""There goes our hotel check-in. What are we supposed to do for five hours?""
+
+Leo smiled, pulling two tickets and a deck of cards from his pocket. ""There's a 24-hour diner right down the street. I'll buy the coffee if you deal the cards."""
+64,creative_writing,Write a brief story about someone finding a mysterious key.,Gemini,"Beneath a loose floorboard in her grandfather's attic, Clara discovered a velvet pouch containing a heavy, brass key. Unlike modern keys, its bow was shaped like a coiled dragon and its shaft was carved with strange, intricate grooves. Etched into the stem was a single set of geographic coordinates and a date from 1924. As Clara traced the cool metal with her thumb, she realized her quiet life was about to take an unexpected turn."
+65,creative_writing,Describe a futuristic classroom in a creative way.,Gemini,"The classroom of 2085 had no physical desks or chalkboards. Instead, students sat in comfortable swivel pods positioned around a central holographic projector. When the history lesson began, the room's smart-glass walls dimmed and three-dimensional, high-definition historical models filled the room. Guided by their instructor, students adjusted lightweight neural visors to walk through ancient Roman forums in real time, interacting with digital artifacts through responsive haptic gloves."
+66,creative_writing,Write a short motivational paragraph for a student before an exam.,Gemini,"Take a deep breath and trust in the effort you have put into your preparation. An exam is simply an opportunity to demonstrate your understanding, not a measure of your worth. Stay calm, read each question carefully, and pace yourself thoughtfully. You have prepared for this moment, and you possess all the knowledge and skills needed to succeed. Believe in yourself and give it your best!"
+67,creative_writing,Write a brief fantasy scene set in an enchanted forest.,Gemini,"Silver moonlight filtered through the dense canopy of bioluminescent ironwood trees, casting an ethereal glow over the mossy path. Whispers of soft melody echoed through the glade as tiny azure wisps floated above a shimmering stream. Eldrin pulled his cloak close, watching in awe as a magnificent stag with antlers made of polished amber stepped into the clearing, leaving glowing wildflowers in every footprint."
+68,creative_writing,Write a short story about a forgotten message in a bottle.,Gemini,"For fifty years, a green glass bottle lay nestled in the sand dunes of Willow Cove. When ten-year-old Toby stumbled upon it during a morning walk, he found a rolled parchment inside sealed with weathered red wax. Carefully opening the glass, he unrolled a short handwritten note dated July 14, 1974: 'To whoever finds this—remember that today was a beautiful day, and someone was happy here.' Toby looked out at the ocean, feeling a quiet connection across decades."
+69,creative_writing,Describe a peaceful beach at sunrise.,Gemini,"Sunlight rose gently over the calm ocean horizon, painting the sky in delicate shades of peach, lavender, and soft gold. Low, rhythmic waves lapped against the smooth shoreline, washing gently over scattered seashells. The early morning air felt crisp and cool, filled with the faint salty breeze and the tranquil sound of distant seagulls greeting the dawn."
+70,creative_writing,Write a short scene about two astronauts seeing Earth from space.,Gemini,"Suspended in the silence of orbit, Commander Elena looked out through the cupola window at the glowing blue sphere floating against the black void of space. Swirls of bright white clouds drifted over deep blue oceans and golden continents. 'It looks so peaceful from here,' Marcus whispered beside her. Elena nodded, watching the thin atmospheric line glow along the horizon. 'No borders,' she said quietly, 'just home.'"
+71,creative_writing,Write a brief mystery opening involving a locked room.,Gemini,"Detective Miller stood before the heavy oak door of the study, its deadbolt still locked securely from the inside. When the lock was drilled out, the team stepped into a room with all windows shut and latched from within. On the desk sat a freshly poured cup of tea, still steaming, alongside an open journal—yet the room was completely unoccupied, leaving no trace of how anyone could have left."
+72,creative_writing,Write a paragraph describing a crowded coffee shop.,Gemini,"The corner coffee shop hummed with steady morning activity. Steam hissed from the espresso machine as baristas crafted drinks over the warm hum of ambient jazz music. Sunlight streamed through tall windows, illuminating small wooden tables where patrons chatted, typed on laptops, or read books. The rich aroma of freshly ground coffee beans and toasted pastries created a cozy, inviting environment."
+73,creative_writing,Write a short story about a student building their first app.,Gemini,"After weeks of late-night coding sessions and troubleshooting syntax errors, Maya finally reached the final line of her project. She connected her smartphone, took a deep breath, and hit 'Deploy'. A moment later, the custom task-management app opened smoothly on her phone's screen, fully functional and responsive. Seeing her code come to life after so much hard work brought a proud smile to her face."
+74,creative_writing,Describe an abandoned amusement park at night.,Gemini,"The abandoned amusement park stood silent under the pale moonlight, its rusting ferris wheel outlined against the starry night sky. Overgrown vines twined around broken ticket booths, and flaking paint covered the wooden horses of the motionless carousel. A gentle night breeze rustled through dry leaves on the overgrown pathways, holding a quiet calm over a place once filled with music and laughter."
+75,creative_writing,Write a short scene where a character receives unexpected good news.,Gemini,"Julian refreshed his email inbox for the fourth time that afternoon, expecting another standard update. Instead, a new message subject line read: 'Grant Application Selection - Approved'. He stared at the screen in disbelief, reading the confirmation letter twice to ensure it was real. A surge of relief and excitement washed over him, and he immediately ran down the stairs to share the fantastic news with his family."
+76,advice_explanation,Give a student advice for managing time during a busy semester.,Gemini,"To manage your time effectively during a busy semester, start by entering all syllabus deadlines, exams, and recurring commitments into a centralized digital calendar or planner. Break large academic projects into smaller, weekly action steps and schedule dedicated study blocks using techniques like the Pomodoro method (25 minutes of focused study followed by a 5-minute break). Prioritize tasks by urgency and importance, eliminate distractions during study blocks, and protect time for sleep and exercise to avoid burnout."
+77,advice_explanation,Explain how to prepare effectively for a job interview.,Gemini,"To prepare effectively for a job interview, start by thoroughly researching the organization's mission, products, key leadership, and recent developments. Carefully review the job description and align your past achievements with their key requirements. Practice answering common behavioral questions using the STAR method (Situation, Task, Action, Result) to structure clear, concise stories. Finally, prepare two or three thoughtful questions to ask the interviewer about team culture and growth opportunities."
+78,advice_explanation,Give advice for improving public speaking skills.,Gemini,"To improve public speaking skills, practice your presentation aloud multiple times, ideally recording yourself or rehearsing in front of a friend to refine your pacing and vocal variety. Focus on maintaining open body language, making steady eye contact with different areas of the room, and using deliberate pauses instead of filler words (like 'um' or 'like'). Practice deep breathing before stepping up to speak to manage nerves and keep your focus on delivering clear value to your audience."
+79,advice_explanation,Explain how someone can build a consistent study routine.,Gemini,"Building a consistent study routine requires establishing fixed study times during the day when your energy and focus are highest. Choose a dedicated, quiet workspace free from distractions like social media or television. Define clear, actionable goals for every session (e.g., 'complete 10 practice problems' rather than 'study math') and use a calendar to track your daily streak. Consistency comes from small, repeatable habits rather than sporadic cramming."
+80,advice_explanation,Give advice for resolving a disagreement with a teammate.,Gemini,"When resolving a disagreement with a teammate, address the matter promptly through a private, open conversation. Practice active listening by giving them your full attention and summarizing their viewpoint to ensure mutual understanding. Focus on shared project objectives and specific behaviors rather than making personal accusations, using 'I' statements (e.g., 'I felt concerned when the deadline slipped'). Work together to brainstorm collaborative solutions that address both parties' concerns."
+81,advice_explanation,Explain how to create a basic monthly budget.,Gemini,"To create a basic monthly budget, begin by calculating your total net monthly income. List all fixed monthly expenses (such as rent, insurance, and utilities) followed by variable expenses (groceries, dining, entertainment). Subtract your total expenses from your income to ensure you are spending less than you earn. Allocate remaining funds toward savings or emergency funds using simple frameworks like the 50/30/20 rule (50% needs, 30% wants, 20% savings/debt payoff), and track your spending regularly."
+82,advice_explanation,Give advice for staying focused while studying.,Gemini,"To stay focused while studying, create a distraction-free environment by placing your phone in another room or using application blockers. Break study sessions into structured intervals, such as 30 to 45 minutes of intense focus followed by short 5-minute breaks. Keep a 'distraction list' notebook nearby to jot down unrelated thoughts or tasks that pop up so you can address them later without interrupting your current workflow."
+83,advice_explanation,Explain how to write a professional email to a professor.,Gemini,"When writing a professional email to a professor, use a concise, informative subject line that includes your course title and topic (e.g., 'Question regarding ECON 101 Assignment 2 - [Your Name]'). Address them formally (e.g., 'Dear Professor [Last Name]'), state your question or request clearly in the opening sentences, and maintain a polite, respectful tone throughout. Double-check for correct grammar and closing details before signing off with your full name and student ID number."
+84,advice_explanation,Give advice for preparing for a technical coding interview.,Gemini,"To prepare for a technical coding interview, master core computer science data structures (arrays, linked lists, trees, graphs, hash tables) and algorithms (sorting, searching, recursion, dynamic programming). Solve practice problems regularly on platforms like LeetCode or HackerRank, practicing out loud to communicate your problem-solving logic clearly. Always analyze time and space complexity (Big-O) and test your solutions with edge cases before concluding."
+85,advice_explanation,Explain how to break a large project into manageable tasks.,Gemini,"To break a large project into manageable tasks, start by defining the final deliverable and identifying major milestones. Divide each milestone into bite-sized, actionable tasks that can be completed within 1 to 2 hours. Order these tasks sequentially, set realistic deadlines for each step, and track your progress visually using a checklist or digital kanban tool like Trello."
+86,advice_explanation,Give advice for working effectively in a group project.,Gemini,"To work effectively in a group project, hold an initial kickoff meeting to clarify goals, establish communication channels, and assign specific responsibilities based on each member's strengths. Set internal milestone deadlines ahead of the final due date to allow time for review and integration. Maintain transparent communication, respect differing perspectives, and use shared document repositories to keep everyone aligned."
+87,advice_explanation,Explain how to evaluate whether an online source is trustworthy.,Gemini,"To evaluate whether an online source is trustworthy, examine the author's credentials, professional background, and institutional affiliations. Check the publishing platform's domain and editorial standards (favoring academic, governmental, or established news organizations). Verify whether claims are backed by credible evidence and peer-reviewed citations, and cross-reference information across multiple independent sources to check for accuracy and bias."
+88,advice_explanation,Give advice for improving note-taking during lectures.,Gemini,"Improve lecture note-taking by using a clear organizational system like the Cornell Method, outlining, or mind mapping. Focus on capturing main ideas, key formulas, core concepts, and definitions rather than attempting word-for-word transcription. Use shorthand and symbols to increase writing speed, and review and summarize your notes within 24 hours of class to consolidate learning."
+89,advice_explanation,Explain how to set realistic academic goals.,Gemini,"Set realistic academic goals by applying the SMART criteria: make your goals Specific, Measurable, Achievable, Relevant, and Time-bound (e.g., 'Achieve an A- or higher in Statistics by studying 5 hours per week and attending tutoring sessions'). Break large academic goals into weekly action items, track your academic performance regularly, and adjust study strategies if you notice progress slipping."
+90,advice_explanation,Give advice for handling multiple deadlines in the same week.,Gemini,"To manage multiple deadlines in the same week, create a comprehensive list of all deliverables, exam dates, and estimated completion times. Rank tasks by urgency and importance to identify high-priority items. Map out a daily schedule that distributes work evenly across the preceding days to avoid last-minute cramming, and focus on completing one task at a time to maintain high quality and reduce stress."

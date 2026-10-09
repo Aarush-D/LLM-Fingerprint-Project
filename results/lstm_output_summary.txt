@@ -1,0 +1,21 @@
+Model: lstm
+Mode: output
+Labels: ['Claude', 'GPT', 'Gemini']
+Test loss: 1.1554
+Test accuracy: 0.3659
+
+Classification report:
+              precision    recall  f1-score   support
+
+      Claude     0.4000    0.1538    0.2222        13
+         GPT     0.3529    0.8571    0.5000        14
+      Gemini     0.5000    0.0714    0.1250        14
+
+    accuracy                         0.3659        41
+   macro avg     0.4176    0.3608    0.2824        41
+weighted avg     0.4181    0.3659    0.2839        41
+
+Confusion matrix:
+[[ 2 10  1]
+ [ 2 12  0]
+ [ 1 12  1]]
