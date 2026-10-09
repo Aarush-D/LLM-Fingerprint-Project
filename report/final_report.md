@@ -4,7 +4,7 @@
 
 Team leader: Aarush Durgavarjhula
 
-Members: [add team members, if any]
+Members:
 
 ## 1. Introduction
 
